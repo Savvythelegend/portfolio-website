@@ -31,7 +31,7 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo" style="color: #ffffffb9;;">Mehfooj</a>
+            <a href="#" class="nav__logo" style="color: var(--first-color)";>Mehfooj</a>
             <div data-aos="fade-in" class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__items">
@@ -91,14 +91,20 @@
             <div data-aos="fade-left" class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
-                        <a href="#" target="_blank" class="home__social-icon">
-                            <i class="uil uil-instagram"></i>
-                        </a>
                         <a href="https://github.com/Savvythelegend" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
+
+                        <a href="https://www.linkedin.com/in/mehfooj-%F0%9F%87%AE%F0%9F%87%B3-b6aa0b243/"
+                            target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
                         <a href="https://twitter.com/Mehfooj194108" target="_blank" class="home__social-icon">
                             <i class="uil uil-twitter-alt"></i>
+                        </a>
+                        <a href="#" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
                         </a>
                     </div>
 
@@ -127,7 +133,7 @@
                             <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm Mehfooj</h1>
                         </div>
                         <h3 class="home__subtitle">
-                            I'm <span class="auto-input" style="color: rgb(213, 72, 187);"></span>
+                            I'm a <span class="auto-input" style="color: rgb(213, 72, 187);"></span>
                         </h3>
                         <br>
                         <p class="home__description">
@@ -152,7 +158,7 @@
         <!--==================== ABOUT ==================== -->
         <section class="about section" id="about">
             <h2 class="section__title">About Me</h2><br>
-            <span class="section__subtitle" style="font-size: medium;"> My Introduction</span>
+            <span class="section__subtitle" style="font-size: medium; font-family: cursive;"> My Introduction</span>
 
             <div data-aos="fade-left" class="about__container container grid">
                 <img src="assets/img/about.jpg" alt="" class="about__img" />
@@ -160,10 +166,10 @@
                 <div class="about__data">
                     <p class="about__description">
                         <span>
-                            <h4>Hi, I'm Mehfooj </h4>
+                            <h4>Hi,  I'm Mehfooj </h4>
                         </span><br>An 18-year-old tech enthusiast. As a Technical Blogger, Freelancer, and Python
                         Engineer, I excel
-                        in Data Analysis, Flask, Automation, Web Scraping, HTML, CSS, JS, and Python.
+                        in Data Analysis, Flask, Automation, Web Scraping, web development and in Python.
                         <br>
                         Passionate about AI, especially LLMs and RAG applications, I'm continuously expanding my skills
                         and contributing to
@@ -204,7 +210,7 @@
         <!--==================== SKILLS ====================-->
         <section class="skills section" id="skills">
             <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle">My technical level</span>
+            <span class="section__subtitle" style="font-family: cursive;">My technical level</span>
 
             <div data-aos="fade-up" class="skills__container container grid">
                 <div>
@@ -521,7 +527,7 @@
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
             <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">What I offer</span>
+            <span class="section__subtitle" style="font-family: cursive;">What I offer</span>
 
             <div data-aos="fade-right" class="services__container container grid">
                 <!--==================== SERVICES 1 ====================-->
@@ -658,7 +664,7 @@
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most recent work</span>
+            <span class="section__subtitle" style="font-family:cursive;">Most recent work</span>
 
             <div data-aos="fade-right" class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
@@ -903,17 +909,18 @@
 
                     </div>
                 </form>
-                <div class="chatbase">
-                    <script>
-                        window.embeddedChatbotConfig = {
-                            chatbotId: "yzxfuzxtOAoZ3ygU3IBg4",
-                            domain: "www.chatbase.co"
-                        }
-                    </script>
-                    <script src="https://www.chatbase.co/embed.min.js" chatbotId="yzxfuzxtOAoZ3ygU3IBg4"
-                        domain="www.chatbase.co" defer>
-                        </script>
-                </div>
+               <script>
+window.embeddedChatbotConfig = {
+chatbotId: "yzxfuzxtOAoZ3ygU3IBg4",
+domain: "www.chatbase.co"
+}
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="yzxfuzxtOAoZ3ygU3IBg4"
+domain="www.chatbase.co"
+defer>
+</script>
             </div>
         </section>
     </main>
@@ -954,6 +961,10 @@
                     <a href="https://twitter.com/Mehfooj194108" target="_blank" class="footer__social">
                         <i class="uil uil-twitter-alt"></i></a>
                     </a>
+                <a href="https://www.linkedin.com/in/mehfooj-%F0%9F%87%AE%F0%9F%87%B3-b6aa0b243/" target="_blank"
+                    class="home__social-icon">
+                    <i class="uil uil-linkedin-alt" style="color: white;"></i>
+                </a>
                 </div>
             </div>
             <p class="footer__copy">&copy; 2024 Mehfooj Alam | All Rights Reserved</p>
@@ -977,13 +988,13 @@
     <script>
         var typed = new Typed(".auto-input", {
             strings: [
-                "a Backend developer",
+                "Backend developer",
                 "Technical Blogger",
                 "Memeber of Google Developer",
                 "Open Source Enthusiasts",
             ],
-            typeSpeed: 30,
-            backSpeed: 40,
+            typeSpeed: 35,
+            backSpeed: 35,
             loop: true,
 
         });
